@@ -20,15 +20,7 @@ This project leverages machine learning techniques to estimate the market worth 
 - **Scikit-learn** - Machine learning algorithms and tools
 - **Matplotlib & Seaborn** - Data visualization
 - **Jupyter/IPython** - Notebook interface and computational kernel
-
-- ## Project Structure:
-G_G_Mahesh_FinalProjectB11/
-├── G_G_Mahesh_FinalProjectB11.ipynb # Main project notebook
-├── data/ # Dataset files
-├── models/ # Trained models
-├── visuals/ # Generated charts and graphs
-└── README.md # Project documentation
-
+  
 ## Dataset:
 The project uses FIFA player data containing:
 
@@ -42,9 +34,7 @@ Skill ratings and special abilities
 
 Current market values and wages
 
-## Machine Learning Approach
-The project implements:
-
+## Machine Learning Approach:
 ##  Data Preprocessing:
 
 1.Handling missing values
@@ -54,10 +44,8 @@ The project implements:
 3.Categorical variable encoding
 
 ## Visualization Samples:
-1.Age vs 
-Flight Price vs Total Stops
-Correlation Heatmap
-Actual vs Predicted Prices (Scatter Plot)
+1.Correlation Heatmap with numericla features
+2.Actual vs Predicted Prices (Scatter Plot)
 
 ## Feature Selection:
 
@@ -90,24 +78,13 @@ Actual vs Predicted Prices (Scatter Plot)
 4.Cross-validation
 
 ## Model Performance Comparison:
-Overall Performance Metrics:
-Model	MAE (€)	MSE (€²)	RMSE (€)	R² Score	Training Time (s)	Inference Time (ms)
-Random Forest	1,250,000	2.8×10¹²	1,674,000	0.89	45.2	12.5
-Gradient Boosting	1,380,000	3.2×10¹²	1,789,000	0.87	38.7	8.3
-XGBoost	1,320,000	3.0×10¹²	1,732,000	0.88	42.1	6.8
-Neural Network	1,450,000	3.6×10¹²	1,897,000	0.85	120.5	15.2
-Linear Regression	2,100,000	6.5×10¹²	2,550,000	0.73	3.2	2.1
-Decision Tree	1,650,000	4.1×10¹²	2,025,000	0.83	12.8	4.5
-Support Vector Regression	1,950,000	5.8×10¹²	2,408,000	0.76		
+ Best Overall Model: Random Forest
 
-## Hyperparameter Tuning Results:
-Hyperparameter Tuning Results
-Model	Best Parameters	Improvement (%)
-Random Forest	n_estimators=200, max_depth=25, min_samples_split=5	+8.2%
-Gradient Boosting	learning_rate=0.1, n_estimators=150, max_depth=6	+6.5%
-XGBoost	learning_rate=0.01, max_depth=7, subsample=0.8	+7.1%
-Neural Network	layers=[64,32,16], dropout=0.3, learning_rate=0.001	+9.8%
+1.MAE: €1.25M (12.5% of average player value)
 
+2.R² Score: 0.89 (89% variance explained)
+
+3.Robustness: Low standard deviation in cross-validation
 
 ## Hyperparameter Tuning (GridSearchCV):
 Performed tuning for Random Forest Regressor using parameters like:
@@ -141,7 +118,7 @@ The FIFA Player Worth Estimation project successfully demonstrates that machine 
 
 4.Automate data cleaning pipeline for dynamic datasets.
 
-## Contributors
+## Contributor
 G. G. Mahesh - Project Developer
 
 ## License
