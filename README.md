@@ -111,13 +111,13 @@ The project provides insights into:
 The FIFA Player Worth Estimation project successfully demonstrates that machine learning can effectively predict football players' market values with high accuracy and practical utility. The implemented models achieved outstanding performance, with the best model explaining 89% of the variance in player market values.
 
 ## Future Enhancements:
-1.Use XGBoost or CatBoost models for better prediction.
+1.Integrate real-time performance data and advanced metrics like xG, progressive carries
 
-2.Deploy model using Streamlit or Flask for web interface.
+2.Add transfer market sentiment analysis from news and social media
 
-3.Include real-time flight API for live fare prediction.
+3.Develop time-series models for dynamic value tracking and growth projection
 
-4.Automate data cleaning pipeline for dynamic datasets.
+4.Create league-specific models and include contract/wage structure analysis
 
 ## Contributor
 G. G. Mahesh - Project Developer
