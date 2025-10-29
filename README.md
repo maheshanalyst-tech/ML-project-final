@@ -100,25 +100,14 @@ Linear Regression	2,100,000	6.5×10¹²	2,550,000	0.73	3.2	2.1
 Decision Tree	1,650,000	4.1×10¹²	2,025,000	0.83	12.8	4.5
 Support Vector Regression	1,950,000	5.8×10¹²	2,408,000	0.76		
 
-## Feature Importance (Top 10 - Random Forest):
-Feature	Importance Score	Description
-Overall Rating	0.285	Player's overall skill rating
-Potential	0.152	Future potential rating
-Age	0.098	Player's current age
-International Reputation	0.075	International recognition level
-Position	0.068	Playing position
-Wage (€)	0.062	Weekly wage
-Skill Moves	0.048	Technical skill level
-Weak Foot	0.042	Weak foot proficiency
-Contract Length	0.038	Remaining contract duration
-League	0.035	Current playing league
-
 ## Hyperparameter Tuning Results:
+Hyperparameter Tuning Results
 Model	Best Parameters	Improvement (%)
 Random Forest	n_estimators=200, max_depth=25, min_samples_split=5	+8.2%
 Gradient Boosting	learning_rate=0.1, n_estimators=150, max_depth=6	+6.5%
 XGBoost	learning_rate=0.01, max_depth=7, subsample=0.8	+7.1%
 Neural Network	layers=[64,32,16], dropout=0.3, learning_rate=0.001	+9.8%
+
 
 ## Hyperparameter Tuning (GridSearchCV):
 Performed tuning for Random Forest Regressor using parameters like:
