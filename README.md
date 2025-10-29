@@ -44,7 +44,8 @@ Current market values and wages
 3.Categorical variable encoding
 
 ## Visualization Samples:
-1.Correlation Heatmap with numericla features
+1.Correlation Heatmap with numerical features
+
 2.Actual vs Predicted Prices (Scatter Plot)
 
 ## Feature Selection:
