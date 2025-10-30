@@ -127,7 +127,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Installation
 1. Clone the repository:
-   git clone https://github.com/yourusername/fifa-player-worth-estimation.git
+   https://github.com/maheshanalyst-  tech/ML-project-final
 
 2. Navigate to the project directory:
    cd fifa-player-worth-estimation
