@@ -126,15 +126,12 @@ G. G. Mahesh - Project Developer
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Installation
-1. Clone the repository:
+1.Navigate to the project directory:
    https://colab.research.google.com/drive/1-run0lCU7AXIJ2lRfxCVnR3XgOXmfK72?usp=sharing
 
-2. Navigate to the project directory:
-   cd fifa-player-worth-estimation
+2.Launch Google Colab 
 
-3.Launch Jupyter Notebook:
-
-4.Open G_G_Mahesh_FinalProjectB11.ipynb to explore the project.
+3.Open G_G_Mahesh_FinalProjectB11.ipynb to explore the project.
 
 
    
