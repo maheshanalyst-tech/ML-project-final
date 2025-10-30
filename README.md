@@ -127,7 +127,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Installation
 1. Clone the repository:
-   https://github.com/maheshanalyst-  tech/ML-project-final
+   https://colab.research.google.com/drive/1-run0lCU7AXIJ2lRfxCVnR3XgOXmfK72?usp=sharing
 
 2. Navigate to the project directory:
    cd fifa-player-worth-estimation
